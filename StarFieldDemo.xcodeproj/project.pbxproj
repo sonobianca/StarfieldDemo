@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C30C7A31E261DD500A22363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7A21E261DD500A22363 /* AppDelegate.swift */; };
+		6C30C7A91E261DD500A22363 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7A81E261DD500A22363 /* GameScene.swift */; };
+		6C30C7AB1E261DD500A22363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7AA1E261DD500A22363 /* ViewController.swift */; };
+		6C30C7AD1E261DD500A22363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C30C7AC1E261DD500A22363 /* Assets.xcassets */; };
+		6C30C7B01E261DD500A22363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C30C7AE1E261DD500A22363 /* Main.storyboard */; };
+		6C30C7C41E261FD500A22363 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7B81E261FD500A22363 /* CGFloat+Extensions.swift */; };
+		6C30C7C51E261FD500A22363 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7B91E261FD500A22363 /* CGPoint+Extensions.swift */; };
+		6C30C7C61E261FD500A22363 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7BA1E261FD500A22363 /* CGVector+Extensions.swift */; };
+		6C30C7C71E261FD500A22363 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7BB1E261FD500A22363 /* Int+Extensions.swift */; };
+		6C30C7C81E261FD500A22363 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7BC1E261FD500A22363 /* SKAction+Extensions.swift */; };
+		6C30C7C91E261FD500A22363 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7BD1E261FD500A22363 /* SKAction+SpecialEffects.swift */; };
+		6C30C7CA1E261FD500A22363 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7BE1E261FD500A22363 /* SKColor+Extensions.swift */; };
+		6C30C7CB1E261FD500A22363 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7BF1E261FD500A22363 /* SKNode+Extensions.swift */; };
+		6C30C7CC1E261FD500A22363 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7C01E261FD500A22363 /* SKTAudio.swift */; };
+		6C30C7CD1E261FD500A22363 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7C11E261FD500A22363 /* SKTEffects.swift */; };
+		6C30C7CE1E261FD500A22363 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7C21E261FD500A22363 /* SKTTimingFunctions.swift */; };
+		6C30C7CF1E261FD500A22363 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7C31E261FD500A22363 /* Vector3.swift */; };
+		6C30C7D41E26200A00A22363 /* CGPoint+MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7D01E26200A00A22363 /* CGPoint+MyExtensions.swift */; };
+		6C30C7D51E26200A00A22363 /* CGSize+MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7D11E26200A00A22363 /* CGSize+MyExtensions.swift */; };
+		6C30C7D61E26200A00A22363 /* CGVector+MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7D21E26200A00A22363 /* CGVector+MyExtensions.swift */; };
+		6C30C7D71E26200A00A22363 /* MyMaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7D31E26200A00A22363 /* MyMaths.swift */; };
+		6C30C7DF1E26220200A22363 /* InteractiveCameraNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7DD1E26220200A22363 /* InteractiveCameraNode.swift */; };
+		6C30C7E01E26220200A22363 /* StarfieldNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30C7DE1E26220200A22363 /* StarfieldNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C30C79F1E261DD500A22363 /* StarFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C30C7A21E261DD500A22363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C30C7A81E261DD500A22363 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6C30C7AA1E261DD500A22363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C30C7AC1E261DD500A22363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C30C7AF1E261DD500A22363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C30C7B11E261DD500A22363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C30C7B81E261FD500A22363 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		6C30C7B91E261FD500A22363 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		6C30C7BA1E261FD500A22363 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		6C30C7BB1E261FD500A22363 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		6C30C7BC1E261FD500A22363 /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		6C30C7BD1E261FD500A22363 /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		6C30C7BE1E261FD500A22363 /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		6C30C7BF1E261FD500A22363 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		6C30C7C01E261FD500A22363 /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		6C30C7C11E261FD500A22363 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		6C30C7C21E261FD500A22363 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		6C30C7C31E261FD500A22363 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		6C30C7D01E26200A00A22363 /* CGPoint+MyExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+MyExtensions.swift"; sourceTree = "<group>"; };
+		6C30C7D11E26200A00A22363 /* CGSize+MyExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+MyExtensions.swift"; sourceTree = "<group>"; };
+		6C30C7D21E26200A00A22363 /* CGVector+MyExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+MyExtensions.swift"; sourceTree = "<group>"; };
+		6C30C7D31E26200A00A22363 /* MyMaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMaths.swift; sourceTree = "<group>"; };
+		6C30C7DD1E26220200A22363 /* InteractiveCameraNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveCameraNode.swift; sourceTree = "<group>"; };
+		6C30C7DE1E26220200A22363 /* StarfieldNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarfieldNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C30C79C1E261DD500A22363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C30C7961E261DD500A22363 = {
+			isa = PBXGroup;
+			children = (
+				6C30C7A11E261DD500A22363 /* StarFieldDemo */,
+				6C30C7A01E261DD500A22363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C30C7A01E261DD500A22363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C30C79F1E261DD500A22363 /* StarFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C30C7A11E261DD500A22363 /* StarFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6C30C7E11E26221200A22363 /* Camera and Starfield */,
+				6C30C7D81E26201500A22363 /* nuts-n-bolts */,
+				6C30C7B71E261FD500A22363 /* SKTUtils */,
+				6C30C7A21E261DD500A22363 /* AppDelegate.swift */,
+				6C30C7A81E261DD500A22363 /* GameScene.swift */,
+				6C30C7AA1E261DD500A22363 /* ViewController.swift */,
+				6C30C7AC1E261DD500A22363 /* Assets.xcassets */,
+				6C30C7AE1E261DD500A22363 /* Main.storyboard */,
+				6C30C7B11E261DD500A22363 /* Info.plist */,
+			);
+			name = StarFieldDemo;
+			path = "Starfield Demo";
+			sourceTree = "<group>";
+		};
+		6C30C7B71E261FD500A22363 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6C30C7B81E261FD500A22363 /* CGFloat+Extensions.swift */,
+				6C30C7B91E261FD500A22363 /* CGPoint+Extensions.swift */,
+				6C30C7BA1E261FD500A22363 /* CGVector+Extensions.swift */,
+				6C30C7BB1E261FD500A22363 /* Int+Extensions.swift */,
+				6C30C7BC1E261FD500A22363 /* SKAction+Extensions.swift */,
+				6C30C7BD1E261FD500A22363 /* SKAction+SpecialEffects.swift */,
+				6C30C7BE1E261FD500A22363 /* SKColor+Extensions.swift */,
+				6C30C7BF1E261FD500A22363 /* SKNode+Extensions.swift */,
+				6C30C7C01E261FD500A22363 /* SKTAudio.swift */,
+				6C30C7C11E261FD500A22363 /* SKTEffects.swift */,
+				6C30C7C21E261FD500A22363 /* SKTTimingFunctions.swift */,
+				6C30C7C31E261FD500A22363 /* Vector3.swift */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		6C30C7D81E26201500A22363 /* nuts-n-bolts */ = {
+			isa = PBXGroup;
+			children = (
+				6C30C7D01E26200A00A22363 /* CGPoint+MyExtensions.swift */,
+				6C30C7D11E26200A00A22363 /* CGSize+MyExtensions.swift */,
+				6C30C7D21E26200A00A22363 /* CGVector+MyExtensions.swift */,
+				6C30C7D31E26200A00A22363 /* MyMaths.swift */,
+			);
+			path = "nuts-n-bolts";
+			sourceTree = "<group>";
+		};
+		6C30C7E11E26221200A22363 /* Camera and Starfield */ = {
+			isa = PBXGroup;
+			children = (
+				6C30C7DD1E26220200A22363 /* InteractiveCameraNode.swift */,
+				6C30C7DE1E26220200A22363 /* StarfieldNode.swift */,
+			);
+			name = "Camera and Starfield";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C30C79E1E261DD500A22363 /* StarFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C30C7B41E261DD500A22363 /* Build configuration list for PBXNativeTarget "StarFieldDemo" */;
+			buildPhases = (
+				6C30C79B1E261DD500A22363 /* Sources */,
+				6C30C79C1E261DD500A22363 /* Frameworks */,
+				6C30C79D1E261DD500A22363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarFieldDemo;
+			productName = "Galactic Defender";
+			productReference = 6C30C79F1E261DD500A22363 /* StarFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C30C7971E261DD500A22363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Badger Studios";
+				TargetAttributes = {
+					6C30C79E1E261DD500A22363 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XD829G979M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C30C79A1E261DD500A22363 /* Build configuration list for PBXProject "StarFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C30C7961E261DD500A22363;
+			productRefGroup = 6C30C7A01E261DD500A22363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C30C79E1E261DD500A22363 /* StarFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C30C79D1E261DD500A22363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C30C7AD1E261DD500A22363 /* Assets.xcassets in Resources */,
+				6C30C7B01E261DD500A22363 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C30C79B1E261DD500A22363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C30C7AB1E261DD500A22363 /* ViewController.swift in Sources */,
+				6C30C7C51E261FD500A22363 /* CGPoint+Extensions.swift in Sources */,
+				6C30C7D61E26200A00A22363 /* CGVector+MyExtensions.swift in Sources */,
+				6C30C7CE1E261FD500A22363 /* SKTTimingFunctions.swift in Sources */,
+				6C30C7D51E26200A00A22363 /* CGSize+MyExtensions.swift in Sources */,
+				6C30C7CD1E261FD500A22363 /* SKTEffects.swift in Sources */,
+				6C30C7C91E261FD500A22363 /* SKAction+SpecialEffects.swift in Sources */,
+				6C30C7C61E261FD500A22363 /* CGVector+Extensions.swift in Sources */,
+				6C30C7C81E261FD500A22363 /* SKAction+Extensions.swift in Sources */,
+				6C30C7CA1E261FD500A22363 /* SKColor+Extensions.swift in Sources */,
+				6C30C7E01E26220200A22363 /* StarfieldNode.swift in Sources */,
+				6C30C7A91E261DD500A22363 /* GameScene.swift in Sources */,
+				6C30C7DF1E26220200A22363 /* InteractiveCameraNode.swift in Sources */,
+				6C30C7C71E261FD500A22363 /* Int+Extensions.swift in Sources */,
+				6C30C7D41E26200A00A22363 /* CGPoint+MyExtensions.swift in Sources */,
+				6C30C7CB1E261FD500A22363 /* SKNode+Extensions.swift in Sources */,
+				6C30C7CC1E261FD500A22363 /* SKTAudio.swift in Sources */,
+				6C30C7D71E26200A00A22363 /* MyMaths.swift in Sources */,
+				6C30C7C41E261FD500A22363 /* CGFloat+Extensions.swift in Sources */,
+				6C30C7CF1E261FD500A22363 /* Vector3.swift in Sources */,
+				6C30C7A31E261DD500A22363 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C30C7AE1E261DD500A22363 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C30C7AF1E261DD500A22363 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C30C7B21E261DD500A22363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C30C7B31E261DD500A22363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		6C30C7B51E261DD500A22363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XD829G979M;
+				INFOPLIST_FILE = "Galactic Defender/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = BAS.StarFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C30C7B61E261DD500A22363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XD829G979M;
+				INFOPLIST_FILE = "Galactic Defender/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = BAS.StarFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C30C79A1E261DD500A22363 /* Build configuration list for PBXProject "StarFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C30C7B21E261DD500A22363 /* Debug */,
+				6C30C7B31E261DD500A22363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C30C7B41E261DD500A22363 /* Build configuration list for PBXNativeTarget "StarFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C30C7B51E261DD500A22363 /* Debug */,
+				6C30C7B61E261DD500A22363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C30C7971E261DD500A22363 /* Project object */;
+}
